@@ -52,9 +52,9 @@ const Work = () => {
                 Work
               </h2>
               <p className="max-w-lg mb-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                odio neque, molestie non dui et, luctus interdum diam. Sed
-                laoreet.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ini adalah Beberapa Project yang saya Kerjakan, Dan Juga Latihan Saya Selama 5-6 Bulan.
+                4 Contoh Website Ini adalah yang terbaik mungkin diantara Website yang saya buat selama ini. Namun 
+                Ada beberapa lagi yang belum saya tampilkan. Seterusnya saya akan Masukkan disini. Next Project
               </p>
               <button className="btn btn-sm">View ALL Project</button>
             </div>

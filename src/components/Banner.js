@@ -45,8 +45,8 @@ const Banner = () => {
               whileInView={'show'} 
               viewport={{once: false, amount: 0.7}} 
               className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio neque,
-              molestie non dui et, luctus interdum diam. Sed laoreet.
+                Selamat datang di dunia kreativitas saya! Saya Ridho, pelajar kelas 10 jurusan SIJA. 
+                Menyelami web selama 5-6 bulan, berkarya dengan semangat dan inovasi.
             </motion.p>
             <motion.div 
               variants={fadeIn('up', 0.6)} 

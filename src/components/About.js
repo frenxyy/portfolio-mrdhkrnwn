@@ -33,9 +33,10 @@ const About = () => {
             viewport={{once: false, amount: 0.3}}
             className='flex-1'>
             <h2 className='h2 text-accent'>About Me.</h2>
-            <h3 className='h3 mb-4'>I'm a Freelance FrontEnd Developer With 6 Months of experience</h3>
+            <h3 className='h3 mb-4'>I'm a Student, And FrontEnd Developer With 6 Months of experience</h3>
             <p className='mb-6'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio neque, molestie non dui et, luctus interdum diam. Sed laoreet.
+              Salam! Saya Ridho, seorang pelajar kelas 10 jurusan SIJA yang menekuni dunia web selama 5-6 bulan. 
+              Dengan semangat belajar dan berkarya, saya berkomitmen untuk memberikan inovasi terbaik.
             </p>
             {/* Stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
@@ -52,8 +53,8 @@ const About = () => {
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ?
-                    <CountUp start={0} end={15} duration={3} /> : null}
-                    k+
+                    <CountUp start={0} end={10} duration={3} /> : null}
+                    
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Project <br/>
@@ -63,12 +64,11 @@ const About = () => {
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ?
-                    <CountUp start={0} end={12} duration={3} /> : null}
-                    k+
+                    <CountUp start={0} end={15} duration={3} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Satisfied <br/>
-                  Clients
+                  Years  <br/>
+                  Old Me
                 </div>
               </div>
             </div>

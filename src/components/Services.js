@@ -12,25 +12,25 @@ const services = [
   {
     name: 'UI/UX Designer',
     description: 
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium ex at turpis dignissim, vel dapibus odio fringilla.',
+          'Saya Memiliki Basic Desain Untuk Membuat desain seperti Web(Responsive), Poster dll Menggunakan Figma dan Photoshop.',
     link: 'Learn More'
   },
   {
-    name: 'Development',
+    name: 'Web Developer',
     description: 
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium ex at turpis dignissim, vel dapibus odio fringilla.',
+          'Saya bisa membuat Web dan saya bisa menggunakan HTML, CSS, BOOSTRAP, TAILWIND, REACT JS, NEXT JS, PHP, dll',
     link: 'Learn More'
   },
   {
-    name: 'Digital Marketing',
+    name: 'Networking',
     description: 
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium ex at turpis dignissim, vel dapibus odio fringilla.',
+          'Saya memiliki Basic Networking Teor yang saya pelajari di sekolah',
     link: 'Learn More'
   },
   {
-    name: 'Product Branding',
+    name: 'Linux',
     description: 
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium ex at turpis dignissim, vel dapibus odio fringilla.',
+          'Saya Memiliki Basic Linux yang saya pelajari disekolah, mulai dari Command, Instalasi, Dll',
     link: 'Learn More'
   }
 ]
@@ -70,7 +70,7 @@ const Services = () => {
                   <div className='border-b border-white/20 h-[146px] mb-[38px] flex' key={index}>
                     <div className='max-w-[476px]'>
                       <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6'>{name}</h4>
-                      <p className='font-secondary leading-tight'>{description}</p>
+                      <p className='font-secondary uppercase leading-tight'>{description}</p>
                     </div>
                     <div className='flex flex-col flex-1 items-end'>
                       <a href='#' className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
