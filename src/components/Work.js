@@ -79,7 +79,7 @@ const Work = () => {
                     <span className="text-gradient">{port.name}</span>
                   </div>
                   <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
-                    <span className="text-3xl text-white">{port.title}</span>
+                    <span className="text-2xl text-white">{port.title}</span>
                   </div>
                 </div>
               );
